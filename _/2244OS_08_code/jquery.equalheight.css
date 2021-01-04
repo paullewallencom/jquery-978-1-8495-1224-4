@@ -1,0 +1,25 @@
+body { 
+	color: #333; 
+	font-size: 13px; 
+	line-height: 1.4; 
+} 
+
+.column { 
+	float: left; 
+	background-color: #cdeb8b; 
+	width: 160px; 
+	margin: 10px; 
+	padding: 10px; 
+} 
+
+.column:first-child { 
+	background-color: #deb1de; 
+} 
+
+.column:nth-child(2) { 
+	background-color: #c3d9ff; 
+} 
+
+.column:last-child { 
+	background-color: #ffff88; 
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script src="jquery.menu.js"></script>
+	
+	<link rel="stylesheet" href="jquery.menu.css" />
+	
+	<script>
+		$(document).ready (function () {
+			$('#menu').menu ();
+		});
+	</script>
+</head>
+<body>
+	<ul id="menu"> 
+		<li> 
+			<a href="#">Link 1</a> 
+			<!-- no sub menu --> 
+		</li> 
+		 
+		<li> 
+			<a href="#">Link 2 (with submenu)</a> 
+			<!-- submenu --> 
+			<ul> 
+				<li> 
+					<a href="#">Link 2.1 (with submenu)</a> 
+					<ul> 
+						<li> 
+							<a href="#">Link 2.1.1</a> 
+							<!-- no sub menu --> 
+						</li> 
+						 
+						<li> 
+							<a href="#">Link 2.1.2</a> 
+							<!-- no sub menu --> 
+						</li> 
+					</ul> 
+				</li> 
+				 
+				<li> 
+					<a href="#">Link 2.2</a> 
+					<!-- no sub menu --> 
+				</li> 
+				 
+				<li> 
+					<a href="#">Link 2.3</a> 
+					<!-- no sub menu --> 
+				</li> 
+			</ul> 
+		</li> 
+		 
+		<li> 
+			<a href="#">Link 3 (with submenu)</a> 
+			<!-- submenu --> 
+			<ul> 
+				<li> 
+					<a href="#">Link 3.1</a> 
+					<!-- no sub menu --> 
+				</li> 
+				 
+				<li> 
+					<a href="#">Link 3.2</a> 
+					<!-- no sub menu --> 
+				</li> 
+			</ul> 
+		</li> 
+	</ul>
+</body>
+</html>

@@ -1,0 +1,46 @@
+#menu,
+#menu ul {
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#menu li {
+	float: left;
+	width: 200px;
+	position: relative;
+}
+
+#menu li ul {
+	display: none;
+}
+
+#menu li ul li ul {
+	position: absolute;
+	left: 200px;
+	top: 0;
+}
+
+#menu li,
+#menu li a{
+	background-color: #444;
+	color: #eee;
+	float: left;
+	margin: 0;
+}
+
+#menu a {
+	float: left;
+	padding: 5px;
+	width: 190px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#menu a:hover {
+	background-color: #666;
+	color: #fff;
+}

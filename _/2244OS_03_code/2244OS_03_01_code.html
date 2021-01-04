@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script src="jquery.txthover.js"></script>
+	<script>
+		function _debug (argument)
+		{
+			// Note we don't make use of the 'argument'
+			// we jus tneed it for the function to look
+			// exactly the same as our plugin's debug function
+			alert ("Hi, this is the fake debug function.");
+		}
+		
+		$(document).ready (function () {
+			_debug ("Hello, this is a test call.");
+			$("p#one").txtHover ({ txt: 'This is some custom text.' });
+		});
+	</script>
+</head>
+<body>
+	<p id="one">Some text.</p>
+</body>
+</html>

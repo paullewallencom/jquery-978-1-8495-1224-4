@@ -1,0 +1,19 @@
+.error { border: 1px solid red }
+
+form {
+	width: 300px;
+}
+
+label {
+	position: absolute;
+}
+
+input:not(.submit),
+textarea {
+	margin-left: 100px;
+	width: 200px;
+}
+
+.submit {
+	margin-left: 100px;
+}

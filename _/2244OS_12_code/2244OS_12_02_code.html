@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script src="jquery.cookie.js"></script>
+	<script>
+		$(function () {
+			// set cookie. Expires at the end of the session, has no path and domain has not been specified
+			$.setcookie ("testCookie", "test value");
+
+
+			// pops up the cookie value
+			alert ($.getcookie ("testCookie"));
+	
+			// a slightly more complete cookie
+			$.setcookie ("secondCookie", "test",
+				    { cookiePath:   "/",
+				      cookieDomain: "domain.com"
+			});
+
+			// deletes cookies
+			$.delcookie ("testCookie");
+			$.delcookie ("secondCookie");
+		});
+	</script>
+</head>
+<body>
+	<p>Cookie test</p>
+</body>
+</html>

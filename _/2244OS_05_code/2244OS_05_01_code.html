@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="jquery.js"></script>
+	<script src="swfobject.js"></script>
+	<script src="jquery.audio.js"></script>
+	
+	<link rel="stylesheet" href="jquery.audio.css" type="text/css" />
+	
+	<script>
+		$(document).ready (function () {
+			$("#player0").player ({ mp3: "some-music.mp3" });
+			$("#player1").player ({ mp3:     "some-music.mp3",
+		                        pStatus: "status1",
+		                        pPlay:   "play1",
+		                        pPause:  "pause1",
+		                        pMute:   "mute1" });
+		        $("#player2").player ({ mp3:     "some-music.mp3",
+		                        pStatus: "status2",
+		                        pPlay:   "play2",
+		                        pPause:  "pause2",
+		                        pMute:   "mute2" });
+		});
+	</script>
+</head>
+<body>
+<div id="player0">Player will show here</div>  
+<div id="status">Paused</div>  
+<a id="play" href="#play">Play</a>  
+<a id="pause" href="#pause">Pause</a>  
+<a id="mute" href="#">Toggle mute</a>  
+
+<div id="player1">Player will show here</div>  
+<div id="status1">Paused</div>  
+<a id="play1" href="#play">Play</a>  
+<a id="pause1" href="#pause">Pause</a>  
+<a id="mute1" href="#">Toggle mute</a>  
+
+<div id="player2">Player will show here</div>  
+<div id="status2">Paused</div>  
+<a id="play2" href="#play">Play</a>  
+<a id="pause2" href="#pause">Pause</a>  
+<a id="mute2" href="#">Toggle mute</a>  
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Hello world</title>
+	
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="jquery.log.js" type="text/javascript"></script>
+	<script src="jquery.bgcolor.js" type="text/javascript"></script>
+	
+	<script type="text/javascript" language="javascript" charset="utf-8">
+	// <![CDATA[
+		$(document).ready (function () {
+			$("#one").bgcolor ();
+			$.log ("div#one is orange now!");
+		});
+	// ]]>
+	</script>
+</head>
+
+<body>
+	<div id="one"><span id="two">Hello World</span></div>
+</body>
+</html>

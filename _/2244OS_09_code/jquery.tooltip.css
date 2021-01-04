@@ -1,0 +1,9 @@
+#tooltip {
+	background: #fbf7aa;
+	color: #a2844a;
+	position: absolute;
+	max-width: 150px;
+	padding: 5px;
+	border: 1px solid #a2844a;
+	font-size: 12px;
+}

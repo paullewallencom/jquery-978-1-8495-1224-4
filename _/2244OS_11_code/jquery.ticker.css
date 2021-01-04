@@ -1,0 +1,29 @@
+#news-container {
+	position: relative;
+	width: 250px;
+}
+
+.news {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #ccc;
+}
+
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ff0088;
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+	margin: 0;
+}
+
+p {
+	font-size: 13px;
+	text-align: justify;
+	color: navy;
+	padding: 5px;
+	margin: 0;
+}

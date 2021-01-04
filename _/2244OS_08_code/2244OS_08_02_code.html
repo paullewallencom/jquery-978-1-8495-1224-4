@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script src="jquery.equalheight.js"></script>
+	
+	<link rel="stylesheet" href="jquery.equalheight.css" />
+	
+	<script>
+		$(document).ready (function () {
+			$('div.equal').equalHeight ();
+		});
+	</script>
+</head>
+<body>
+	<h1>Variable heights</h1> 
+	<div class="container"> 
+		<div class="column"> 
+			The shortest box 
+		</div> 
+	 
+		<div class="column"> 
+			A much bigger box is now coming.<br />Beware! 
+		</div> 
+	 
+		<div class="column"> 
+			Believe it or not, this box is actually not shorter than the previous one. In fact, it's a bit taller. 
+		</div> 
+	 
+		<div class="column"> 
+			And we've finally got to the last box, which holds the record for the tallest box of this page!<br />Unfortunately, other shorter boxes will eventually grow to this very same height. 
+		</div> 
+	</div> 
+	<br style="clear: left;"> 
+	 
+	<h1>Equal heights</h1> 
+	<div class="container equal"> 
+		<div class="column"> 
+			The shortest box 
+		</div> 
+	 
+		<div class="column"> 
+			A much bigger box is now coming.<br />Beware! 
+		</div> 
+	 
+		<div class="column"> 
+			Believe it or not, this box is actually not shorter than the previous one. In fact, it's a bit taller. 
+		</div> 
+	 
+		<div class="column"> 
+			And we've finally got to the last box, which holds the record for the tallest box of this page!<br />Unfortunately, other shorter boxes will eventually grow to this very same height. 
+		</div> 
+	</div>
+</body>
+</html>

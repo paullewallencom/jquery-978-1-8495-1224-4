@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script src="jquery.accordion.js"></script>
+	
+	<link rel="stylesheet" href="jquery.accordion.css" />
+	
+	<script>
+		$(document).ready (function () {
+			$("#pane-container").accordion ();
+		});
+	</script>
+</head>
+<body>
+	<div id="pane-container">
+		<div class="pane">
+			<h1>First pane</h1>
+			<p>This script should allow only one pane to be visible at a time.</p>
+		</div>
+	
+		<div class="pane">
+			<h1>Second pane</h1>
+			<p>This script should allow only one pane to be visible at a time.</p>
+		</div>
+	
+		<div class="pane">
+			<h1>Third pane</h1>
+			<p>This script should allow only one pane to be visible at a time.</p>
+		</div>
+	</div>
+</body>
+</html>
